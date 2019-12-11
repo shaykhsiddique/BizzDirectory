@@ -10,3 +10,6 @@ Project is open-source and under developing.
 Send Mail: shaykhsiddiqee@gmail.com
 
 ![Image description](https://i.imgur.com/qxwVgIU.png)
+
+
+**License: ** GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
