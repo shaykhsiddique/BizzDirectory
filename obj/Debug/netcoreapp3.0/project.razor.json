@@ -14349,8 +14349,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/Views/Companies/Index.cshtml",
+      "TargetPath": "Views/Companies/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/Views/Shared/Error.cshtml",
       "TargetPath": "Views/Shared/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/Views/BizType/Index.cshtml",
+      "TargetPath": "Views/BizType/Index.cshtml",
       "FileKind": "mvc"
     },
     {
