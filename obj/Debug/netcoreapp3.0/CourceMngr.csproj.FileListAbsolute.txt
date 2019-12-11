@@ -68,3 +68,5 @@
 /home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/Debug/netcoreapp3.0/CourceMngr.dll
 /home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/Debug/netcoreapp3.0/CourceMngr.pdb
 /home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/Debug/netcoreapp3.0/CourceMngr.csproj.CopyComplete
+/home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/Debug/netcoreapp3.0/Razor/Views/BizType/Index.cshtml.g.cs
+/home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/Debug/netcoreapp3.0/Razor/Views/Companies/Index.cshtml.g.cs
