@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj": {}
+    "/home/shaykh/Desktop/LearnAsp/dad/BizzDirectory/BizzDirectory.csproj": {}
   },
   "projects": {
-    "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj": {
+    "/home/shaykh/Desktop/LearnAsp/dad/BizzDirectory/BizzDirectory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj",
-        "projectName": "CourceMngr",
-        "projectPath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj",
+        "projectUniqueName": "/home/shaykh/Desktop/LearnAsp/dad/BizzDirectory/BizzDirectory.csproj",
+        "projectName": "BizzDirectory",
+        "projectPath": "/home/shaykh/Desktop/LearnAsp/dad/BizzDirectory/BizzDirectory.csproj",
         "packagesPath": "/home/shaykh/.nuget/packages/",
-        "outputPath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/",
+        "outputPath": "/home/shaykh/Desktop/LearnAsp/dad/BizzDirectory/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -38,16 +38,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SQLite": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
