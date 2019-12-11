@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using CourceMngr.Models;
+using BizzDirectory.Models;
 
-namespace CourceMngr.Controllers
+namespace BizzDirectory.Controllers
 {
     public class HomeController : Controller
     {

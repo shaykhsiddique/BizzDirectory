@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 
-namespace CourceMngr.Controllers
-{
+namespace BizzDirectory.Controllers{
     public class BizTypeController : Controller
     {
         // 

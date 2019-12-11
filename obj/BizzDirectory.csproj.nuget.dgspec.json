@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj": {}
+    "/home/shaykh/Desktop/LearnAsp/BizzDirectory/BizzDirectory.csproj": {}
   },
   "projects": {
-    "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj": {
+    "/home/shaykh/Desktop/LearnAsp/BizzDirectory/BizzDirectory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj",
-        "projectName": "CourceMngr",
-        "projectPath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj",
+        "projectUniqueName": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/BizzDirectory.csproj",
+        "projectName": "BizzDirectory",
+        "projectPath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/BizzDirectory.csproj",
         "packagesPath": "/home/shaykh/.nuget/packages/",
         "outputPath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/obj/",
         "projectStyle": "PackageReference",

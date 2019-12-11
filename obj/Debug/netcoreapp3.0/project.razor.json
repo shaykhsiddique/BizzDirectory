@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/CourceMngr.csproj",
+  "FilePath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/BizzDirectory.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14341,7 +14341,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "CourceMngr",
+  "RootNamespace": "BizzDirectory",
   "Documents": [
     {
       "FilePath": "/home/shaykh/Desktop/LearnAsp/BizzDirectory/Views/Shared/_Layout.cshtml",

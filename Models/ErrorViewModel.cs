@@ -1,6 +1,6 @@
 using System;
 
-namespace CourceMngr.Models
+namespace BizzDirectory.Models
 {
     public class ErrorViewModel
     {
