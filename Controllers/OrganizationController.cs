@@ -1,13 +1,26 @@
+using System.Linq;
+using BizzDirectory.Data;
+using BizzDirectory.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BizzDirectory.Controllers
 {
     public class OrganizationController : Controller
     {
+        private const int PageSize = 10;
+
+        protected DbSet<Organization> Organizations;
+
+        public OrganizationController(CommonContext context) =>
+            Organizations = context.Set<Organization>();
+
         [HttpGet("Browse/{pageNo}")]
-        public IActionResult Browse(int? pageNo, int? categoryId, string keywords = null)
+        public IActionResult Browse(int? categoryId, int pageNo = 1, string keywords = null)
         {
-            return View();
+            var firstIndex = (pageNo - 1) * PageSize;
+            var organizations = Organizations.Skip(firstIndex).Take(PageSize);
+            return View(organizations);
         }
 
         [HttpGet("Create")]
@@ -17,15 +30,17 @@ namespace BizzDirectory.Controllers
         }
 
         [HttpPost("Create")]
-        public IActionResult Create(bool _)
+        public IActionResult Create(Organization organization)
         {
             return View();
         }
 
         [HttpGet("{id}")]
-        public IActionResult Read()
+        public IActionResult Read(int id)
         {
-            return View();
+            var organization = Organizations.FirstOrDefault(o => o.Id == id);
+            if (organization == null) return NotFound();
+            return View(organization);
         }
 
         [HttpGet("Update/{id}")]
@@ -35,7 +50,7 @@ namespace BizzDirectory.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, bool _)
+        public IActionResult Update(int id, Organization organization)
         {
             return View();
         }
@@ -47,7 +62,7 @@ namespace BizzDirectory.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id, bool _)
+        public IActionResult Delete(int id, bool accepted)
         {
             return View();
         }
